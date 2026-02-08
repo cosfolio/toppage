@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>会員登録 | cosfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", Meiryo, sans-serif;
+      background: #f6f6f6;
+      margin: 0;
+    }
+    main {
+      max-width: 420px;
+      margin: 60px auto;
+      background: #fff;
+      padding: 32px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    h1 {
+      font-size: 22px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      font-size: 15px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      background: #222;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+    .note {
+      font-size: 13px;
+      color: #666;
+      margin-top: 16px;
+    }
+    .links {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>会員登録</h1>
+
+    <form>
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" placeholder="example@email.com" required>
+
+      <label for="password">パスワード</label>
+      <input type="password" id="password" placeholder="8文字以上" required>
+
+      <button type="submit">登録する</button>
+    </form>
+
+    <p class="note">
+      登録することで、<a href="/terms.html">利用規約</a>および
+      <a href="/privacy.html">プライバシーポリシー</a>に同意したものとみなされます。
+    </p>
+
+    <div class="links">
+      <a href="/login.html">すでにアカウントをお持ちの方はこちら</a>
+    </div>
+  </main>
+</body>
+</html>
